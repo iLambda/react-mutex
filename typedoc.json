@@ -33,4 +33,7 @@
     // typedoc-plugin-markdown options
     "hideBreadcrumbs": true,
     "hideInPageTOC": true,
+    "hidePageTitle": true,
+    "objectLiteralTypeDeclarationStyle": "list",
+    "allReflectionsHaveOwnDocument": true
 }

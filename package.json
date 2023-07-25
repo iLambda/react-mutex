@@ -18,7 +18,7 @@
     "prepare": "yarn build",
     "build": "tsc --outDir ./dist",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "doc": "typedoc"
+    "docs": "typedoc"
   },
   "repository": "git@github.com:iLambda/react-multiview.git",
   "author": "iLambda <me@ilambda.io>",
@@ -28,6 +28,7 @@
     "@types/react": "^18.2.15",
     "@typescript-eslint/eslint-plugin": "^6.1.0",
     "@typescript-eslint/parser": "^6.1.0",
+    "concat-md": "^0.5.1",
     "eslint": "^8.45.0",
     "eslint-plugin-react": "^7.33.0",
     "eslint-plugin-react-hooks": "^4.6.0",
