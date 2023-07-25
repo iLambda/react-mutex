@@ -31,14 +31,11 @@ when the component is first mounted.
   > This version of `useMutex` is useful when the provided initial value is a large object, 
 or its creation triggers some stateful behavior.
 
-<center>
-
   | Name | Type | Description |
   | :------ | :------ | :------ |
   | `initializer` | (`params`: `P`) => `T` | A function that produces the initial value. |
   | `params` | [`P`] | The parameter passed to the `initializer` function. |
 
-</center>
 
 ### Types
 
