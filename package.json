@@ -1,6 +1,6 @@
 {
   "name": "react-mutex",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A set of react hooks that allows for a mutually exclusive access to a resource.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
