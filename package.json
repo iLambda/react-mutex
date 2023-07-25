@@ -1,14 +1,14 @@
 {
   "name": "react-mutex",
-  "version": "1.0.0",
-  "description": "This package provides a hook for components with simple navigational needs : think tabs, or a simple navigation menu.",
+  "version": "0.1.0",
+  "description": "A set of react hooks that allows for a mutually exclusive access to a resource.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [
     "react",
-    "navigation",
-    "hook",
-    "package"
+    "mutex",
+    "resource",
+    "lock"
   ],
   "files": [
     "dist",
@@ -18,7 +18,8 @@
     "prepare": "yarn build",
     "build": "tsc --outDir ./dist",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "docs": "typedoc"
+    "docs": "rimraf ./docs/ && typedoc",
+    "readme": "concat-md --dir-name-as-title --decrease-title-levels docs --ignore README.md modules.md > README.raw.md"
   },
   "repository": "git@github.com:iLambda/react-multiview.git",
   "author": "iLambda <me@ilambda.io>",
@@ -34,7 +35,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-tsdoc": "^0.2.17",
     "eslint-plugin-unused-imports": "^3.0.0",
-    "prettier": "^2.8.0",
     "rimraf": "^5.0.1",
     "typedoc": "^0.24.8",
     "typedoc-plugin-markdown": "^3.15.4",

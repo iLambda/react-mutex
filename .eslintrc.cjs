@@ -16,7 +16,7 @@ module.exports = {
         sourceType: 'module' 
     },
     ignorePatterns: ['.eslintrc.cjs', 'dist/**'],
-    plugins: ['react', 'unused-imports', 'eslint-plugin-tsdoc'],
+    plugins: ['react', 'react-hooks', 'unused-imports', 'eslint-plugin-tsdoc'],
     rules: {
         'linebreak-style': ['error', 'unix'],
         'react/button-has-type': 'error',
