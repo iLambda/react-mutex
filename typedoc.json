@@ -1,0 +1,36 @@
+{
+    "entryPoints": ["src/index.ts"],
+    "out": "./docs",
+    "plugin": [ "typedoc-plugin-markdown" ],
+    "githubPages": false,
+    "excludeInternal": true,
+    "sort": [
+        "kind",
+        "instance-first",
+        "alphabetical"
+    ],
+    "kindSortOrder": [
+        "Function",
+        "TypeAlias",
+        "Class"
+    ],
+    "groupOrder": [
+        "References",
+        "Modules",
+        "Namespaces",
+        "Functions",
+        "Type Aliases",
+        "Classes",
+        "Enumerations",
+        "Enumeration Members",
+        "Interfaces",
+        "Constructors",
+        "Properties",
+        "Variables",
+        "Accessors",
+        "Methods"
+    ],
+    // typedoc-plugin-markdown options
+    "hideBreadcrumbs": true,
+    "hideInPageTOC": true,
+}

@@ -1,0 +1,46 @@
+{
+  "name": "react-mutex",
+  "version": "1.0.0",
+  "description": "This package provides a hook for components with simple navigational needs : think tabs, or a simple navigation menu.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "react",
+    "navigation",
+    "hook",
+    "package"
+  ],
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "prepare": "yarn build",
+    "build": "tsc --outDir ./dist",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "doc": "typedoc"
+  },
+  "repository": "git@github.com:iLambda/react-multiview.git",
+  "author": "iLambda <me@ilambda.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/eslint": "^8.44.0",
+    "@types/react": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "prettier": "^2.8.0",
+    "rimraf": "^5.0.1",
+    "typedoc": "^0.24.8",
+    "typedoc-plugin-markdown": "^3.15.4",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "ts-pattern": "^5.0.4"
+  }
+}
