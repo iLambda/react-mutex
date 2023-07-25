@@ -15,13 +15,10 @@ returns a mutex that controls access to said resource.
 Its initial value is provided by the parameter `initialValue`, and will only
 be used to initialize the reference, when the component is first mounted.
 
-<center>
+  | Name | Type | Description |
+  | :------ | :------ | :------ |
+  | `initialValue` | `T` | The initial value of the resource. |
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `initialValue` | `T` | The initial value of the resource. |
-
-</center>
 
 * **useMutex**<`T`, `P`\>(`initializer`, `params`): [`Mutex`](#typesmutexmd)<`T`\>
 
@@ -36,10 +33,10 @@ or its creation triggers some stateful behavior.
 
 <center>
 
-| Name | Type | Description |
-| :------ | :------ | :------ |
-| `initializer` | (`params`: `P`) => `T` | A function that produces the initial value. |
-| `params` | [`P`] | The parameter passed to the `initializer` function. |
+  | Name | Type | Description |
+  | :------ | :------ | :------ |
+  | `initializer` | (`params`: `P`) => `T` | A function that produces the initial value. |
+  | `params` | [`P`] | The parameter passed to the `initializer` function. |
 
 </center>
 
